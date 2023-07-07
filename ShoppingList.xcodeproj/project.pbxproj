@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734E51EE2A58C7C900483CF5 /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E51ED2A58C7C900483CF5 /* ShoppingListViewModel.swift */; };
 		73BBCEF12A3D393A00780539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBCEF02A3D393A00780539 /* AppDelegate.swift */; };
 		73BBCEF32A3D393A00780539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBCEF22A3D393A00780539 /* SceneDelegate.swift */; };
-		73BBCEF52A3D393A00780539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBCEF42A3D393A00780539 /* ViewController.swift */; };
+		73BBCEF52A3D393A00780539 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBCEF42A3D393A00780539 /* ShoppingListViewController.swift */; };
 		73BBCEF82A3D393A00780539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BBCEF62A3D393A00780539 /* Main.storyboard */; };
 		73BBCEFA2A3D393C00780539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BBCEF92A3D393C00780539 /* Assets.xcassets */; };
 		73BBCEFD2A3D393C00780539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BBCEFB2A3D393C00780539 /* LaunchScreen.storyboard */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		734E51ED2A58C7C900483CF5 /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
 		73BBCEED2A3D393A00780539 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BBCEF02A3D393A00780539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73BBCEF22A3D393A00780539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73BBCEF42A3D393A00780539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73BBCEF42A3D393A00780539 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 		73BBCEF72A3D393A00780539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73BBCEF92A3D393C00780539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73BBCEFC2A3D393C00780539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +103,12 @@
 			children = (
 				73BBCEF02A3D393A00780539 /* AppDelegate.swift */,
 				73BBCEF22A3D393A00780539 /* SceneDelegate.swift */,
-				73BBCEF42A3D393A00780539 /* ViewController.swift */,
+				73BBCEF42A3D393A00780539 /* ShoppingListViewController.swift */,
 				73BBCEF62A3D393A00780539 /* Main.storyboard */,
 				73BBCEF92A3D393C00780539 /* Assets.xcassets */,
 				73BBCEFB2A3D393C00780539 /* LaunchScreen.storyboard */,
 				73BBCEFE2A3D393C00780539 /* Info.plist */,
+				734E51ED2A58C7C900483CF5 /* ShoppingListViewModel.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73BBCEF52A3D393A00780539 /* ViewController.swift in Sources */,
+				73BBCEF52A3D393A00780539 /* ShoppingListViewController.swift in Sources */,
 				73BBCEF12A3D393A00780539 /* AppDelegate.swift in Sources */,
+				734E51EE2A58C7C900483CF5 /* ShoppingListViewModel.swift in Sources */,
 				73BBCEF32A3D393A00780539 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
